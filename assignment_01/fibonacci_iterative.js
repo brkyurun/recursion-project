@@ -9,7 +9,5 @@ function fibonacci(n) {
     fibonacciArray.push(firstNumber + secondNumber);
   }
 
-  return fibonacciArray.at(-1);
+  return fibonacciArray;
 }
-
-console.log(fibonacci(6));
